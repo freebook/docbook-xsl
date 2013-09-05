@@ -5,7 +5,6 @@
    	<xsl:param name="chunker.output.encoding">UTF-8</xsl:param>
    	<xsl:param name="htmlhelp.autolabel" select="1"/>
    	<xsl:param name="htmlhelp.hhc.section.depth">3</xsl:param>
-   	<xsl:param name="htmlhelp.chm">neo.chm</xsl:param>
 
    	<xsl:param name="section.autolabel" select="1"/>
 	<xsl:param name="section.label.includes.component.label" select="1"/>
@@ -14,6 +13,7 @@
    	<xsl:param name="toc.section.depth">3</xsl:param>
 
    	<!--
+   	<xsl:param name="htmlhelp.chm">neo.chm</xsl:param>
    	<xsl:param name="htmlhelp.use.hhk" select="1"/>
    	<xsl:param name="use.id.as.filename" select="1"/>
    	 -->
