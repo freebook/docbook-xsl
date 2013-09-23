@@ -3,7 +3,7 @@
    	<xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml/chunk.xsl"/>
    	<xsl:param name="admon.graphics" 		select="1"/>
    	<xsl:param name="admon.graphics.path">/graphics/</xsl:param>
-   	<xsl:param name="admon.graphics.extension">png</xsl:param>
+   	<xsl:param name="admon.graphics.extension">.png</xsl:param>
    	<xsl:param name="html.stylesheet" 	select="'/docbook.css'"/>
    	<xsl:param name="css.decoration" 	select="1"/>
    	
