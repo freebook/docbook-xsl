@@ -37,14 +37,12 @@
 	</xsl:template>
 
    <xsl:template name="user.head.content">
-
+   		<!-- 
+		<xsl:copy-of select="document('myscriptfile.js',/)"/>
+		 -->
    </xsl:template>
 
 	<xsl:template name="user.header.navigation">
-	</xsl:template>
-
-   <xsl:template name="user.header.content">
-
 <table width="100%" border="0">
   <tr>
     <td align="left" >
@@ -56,10 +54,7 @@
         <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
         <a href="http://rline.blog.51cto.com/">51CTO 博客</a>
     </td>
-    <td>
-<table><tr><td><iframe src="http://ghbtns.com/github-btn.html?user=netkiller&repo=netkiller.github.com&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=netkiller&repo=netkiller.github.com&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=netkiller&type=follow&count=true&size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe></td></tr></table>    
-    </td>
-    <td>
+    <td  align="right">
 
 <!-- Google CSE Search Box Begins -->
 
@@ -77,7 +72,13 @@
 
     </td>
   </tr>
-</table>
+</table>	
+
+	</xsl:template>
+
+   <xsl:template name="user.header.content">
+
+<table><tr><td><iframe src="http://ghbtns.com/github-btn.html?user=netkiller&amp;repo=netkiller.github.com&amp;type=watch&amp;count=true&amp;size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=netkiller&amp;epo=netkiller.github.com&amp;type=fork&amp;count=true&amp;size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=netkiller&amp;type=follow&amp;count=true&amp;size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe></td></tr></table>
 
    </xsl:template>
 

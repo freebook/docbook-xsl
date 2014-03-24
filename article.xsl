@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-   <xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml/docbook.xsl"/>
+   <xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml5/docbook.xsl"/>
    <xsl:param name="toc.max.depth">5</xsl:param>
-   <xsl:param name="html.stylesheet" select="'/docbook.css'"/>
+   <xsl:param name="html.stylesheet" select="'/journal/journal.css'"/>
    <xsl:param name="use.id.as.filename" select="1"/>
    <xsl:param name="toc.section.depth" select="5"/>
    <xsl:param name="section.autolabel" select="1"/>
@@ -18,7 +18,7 @@
 	</xsl:template>
 
    <xsl:template name="user.head.content">
-
+	
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -39,47 +39,23 @@
    </xsl:template>
 
 	<xsl:template name="user.header.navigation">
+
 	</xsl:template>
 
    <xsl:template name="user.header.content">
 
-<table width="100%" border="0">
-  <tr>
-    <td align="left" >
 		<a href="http://netkiller.github.io/">Home</a> |
         <a href="http://netkiller.sourceforge.net/">Mirror</a> |
-        <a href="/search.html">Search</a> |
-        <a href="/journal/index.html">杂文</a> |
+        <a href="/search.html">Search</a>
+		<a href="/journal/index.html">杂文</a> |
         <a href="http://netkiller-github-com.iteye.com/">ITEYE 博客</a> |
         <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
         <a href="http://rline.blog.51cto.com/">51CTO 博客</a>
-    </td>
-	<td>
-
-    </td>
-    <td>
-
-<!-- Google CSE Search Box Begins -->
-<!--
-  <form id="searchbox_008589143145807374698:f5uprauilyy" action="/search.html">
-    <input type="hidden" name="cx" value="008589143145807374698:f5uprauilyy" />
-    <input type="hidden" name="cof" value="FORID:11" />
-    <input name="q" type="text" size="25" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(126, 157, 185); border-right-color: rgb(126, 157, 185); border-bottom-color: rgb(126, 157, 185); border-left-color: rgb(126, 157, 185); padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; background-image: url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: 0% 50%; background-repeat: no-repeat no-repeat; " />
-    <input type="submit" name="sa" value="Search" />
-    <input name="siteurl" type="hidden" value="http://netkiller.sourceforge.net/" />
-  </form>
-  <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_008589143145807374698%3Af5uprauilyy"></script>
- -->
-<!-- Google CSE Search Box Ends -->
-
-    </td>
-  </tr>
-</table>
 
    </xsl:template>
 
    <xsl:template name="user.footer.content">
-
+	
 <!-- Baidu Button BEGIN -->
     <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
         <a class="bds_fbook"></a>
