@@ -108,10 +108,6 @@
 		<br />
 		<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://netkiller.github.io', 'user' : 1107643, 'server' : '2', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2013-08-14', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www2.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www2.clustrmaps.com/user/87410e6bb"><img src="http://www2.clustrmaps.com/stats/maps-no_clusters/netkiller.github.io-thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
 
-   </xsl:template>
-
-   <xsl:template name="user.footer.navigation">
-
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -134,6 +130,10 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 </script>
 
 <script type="text/javascript" src="/js/q.js"></script>
+
+   </xsl:template>
+
+   <xsl:template name="user.footer.navigation">
 
    </xsl:template>
 
