@@ -2,17 +2,16 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml5/docbook.xsl"/>
    <xsl:param name="toc.max.depth">5</xsl:param>
-   <xsl:param name="html.stylesheet" select="'/journal/journal.css'"/>
+   <xsl:param name="html.stylesheet" select="/journal/journal.css"/>
    <xsl:param name="use.id.as.filename" select="1"/>
    <xsl:param name="toc.section.depth" select="5"/>
    <xsl:param name="section.autolabel" select="1"/>
    <xsl:param name="css.decoration" select="1"/>
-<!--
+
    <xsl:param name="xslthl.config" select="/usr/share/xml/docbook/stylesheet/docbook-xsl/highlighting/xslthl-config.xml"/>
    <xsl:param name="use.extensions" select="1"/>
    <xsl:param name="textinsert.extension" select="1"/>
    <xsl:param name="highlight.source" select="1"/>
--->
 
 	<xsl:template name="user.preroot">
 	</xsl:template>
