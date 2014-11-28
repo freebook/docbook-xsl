@@ -17,7 +17,7 @@
 	</xsl:template>
 
    <xsl:template name="user.head.content">
-	
+
    </xsl:template>
 
 	<xsl:template name="user.header.navigation">
@@ -26,19 +26,21 @@
 
    <xsl:template name="user.header.content">
 
-		<a href="http://netkiller.github.io/">Home</a> |
-        <a href="http://netkiller.sourceforge.net/">Mirror</a> |
-        <a href="/search.html">Search</a> | 
-		<a href="/journal/index.html">杂文</a> |
-        <a href="http://netkiller-github-com.iteye.com/">ITEYE 博客</a> |
-        <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
-        <a href="http://rline.blog.51cto.com/">51CTO 博客</a> |
-        <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a>
+        <a href="http://netkiller.github.io/">Home</a> |
+		<a href="http://netkiller.github.io/">简体中文</a> |
+	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
+	    <a href="/journal/index.html">杂文</a> |
+	    <a href="/search.html">Search</a> |
+	    <a href="http://netkiller-github-com.iteye.com/">ITEYE 博客</a> |
+	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
+	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
+	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
+		<a href="mailto:netkiller@msn.com">Email</a>
 
    </xsl:template>
 
    <xsl:template name="user.footer.content">
-	
+
 <!-- Baidu Button BEGIN -->
     <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
         <a class="bds_fbook"></a>
@@ -70,13 +72,13 @@
 <script type="text/javascript">
 	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
 </script>
-<!-- Baidu Button END -->       
+<!-- Baidu Button END -->
 
 		<div id="disqus_thread"></div>
 	    <script type="text/javascript">
 	        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 	        var disqus_shortname = 'netkiller'; // required: replace example with your forum shortname
-	
+
 	        /* * * DON'T EDIT BELOW THIS LINE * * */
 	        (function() {
 	            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -86,8 +88,8 @@
 	    </script>
 	    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
-        
+
+
 		<br />
 		<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://netkiller.github.io', 'user' : 1107643, 'server' : '2', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2013-08-14', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www2.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www2.clustrmaps.com/user/87410e6bb"><img src="http://www2.clustrmaps.com/stats/maps-no_clusters/netkiller.github.io-thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
 

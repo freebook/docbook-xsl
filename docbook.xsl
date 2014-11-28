@@ -43,20 +43,24 @@
    </xsl:template>
 
 	<xsl:template name="user.header.navigation">
+	
+        <a href="http://netkiller.github.io/">Home</a> |
+		<a href="http://netkiller.github.io/">简体中文</a> |
+	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
+	    <a href="/journal/index.html">杂文</a> |
+	    <a href="/search.html">Search</a> |
+	    <a href="http://netkiller-github-com.iteye.com/">ITEYE 博客</a> |
+	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
+	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
+	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
+		<a href="mailto:netkiller@msn.com">Email</a>	
+<!-- 	
 <table width="100%" border="0">
   <tr>
     <td align="left" >
-		<a href="http://netkiller.github.io/">Home</a> |
-        <a href="http://netkiller.sourceforge.net/">Mirror</a> |
-        <a href="/search.html">Search</a> | 
-		<a href="/journal/index.html">杂文</a> |
-        <a href="http://netkiller-github-com.iteye.com/">ITEYE 博客</a> |
-        <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
-        <a href="http://rline.blog.51cto.com/">51CTO 博客</a> |
-        <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a>
     </td>
     <td  align="right">
-
+ -->
 <!-- Google CSE Search Box Begins -->
 <!-- 
   <form id="searchbox_008589143145807374698:f5uprauilyy" action="/search.html">
@@ -70,11 +74,11 @@
   <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_008589143145807374698%3Af5uprauilyy"></script>
  -->
 <!-- Google CSE Search Box Ends -->
-
+<!-- 
     </td>
   </tr>
 </table>	
-
+ -->
 	</xsl:template>
 
    <xsl:template name="user.header.content">
