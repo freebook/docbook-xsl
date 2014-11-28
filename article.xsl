@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml5/docbook.xsl"/>
    <xsl:param name="toc.max.depth">5</xsl:param>
-   <xsl:param name="html.stylesheet" select="/journal/journal.css"/>
+   <xsl:param name="html.stylesheet">/journal/journal.css</xsl:param>
    <xsl:param name="use.id.as.filename" select="1"/>
    <xsl:param name="toc.section.depth" select="5"/>
    <xsl:param name="section.autolabel" select="1"/>
@@ -40,39 +40,6 @@
    </xsl:template>
 
    <xsl:template name="user.footer.content">
-
-<!-- Baidu Button BEGIN -->
-    <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
-        <a class="bds_fbook"></a>
-        <a class="bds_twi"></a>
-        <a class="bds_ms"></a>
-        <a class="bds_msn"></a>
-        <a class="bds_buzz"></a>
-        <a class="bds_linkedin"></a>
-        <a class="bds_deli"></a>
-
-		<a class="bds_qzone"></a>
-        <a class="bds_qq"></a>
-        <a class="bds_tqq"></a>
-        <a class="bds_tqf"></a>
-        <a class="bds_tsina"></a>
-        <a class="bds_baidu"></a>
-        <a class="bds_renren"></a>
-        <a class="bds_t163"></a>
-        <a class="bds_tfh"></a>
-        <a class="bds_douban"></a>
-        <a class="bds_hi"></a>
-        <a class="bds_tieba"></a>
-        <a class="bds_tsohu"></a>
-        <span class="bds_more"></span>
-		<a class="shareCount"></a>
-    </div>
-<script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
-<script type="text/javascript" id="bdshell_js"></script>
-<script type="text/javascript">
-	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
-</script>
-<!-- Baidu Button END -->
 
 		<div id="disqus_thread"></div>
 	    <script type="text/javascript">
