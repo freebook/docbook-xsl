@@ -102,6 +102,10 @@
     </xsl:call-template>
   </xsl:variable>
 
+  <xsl:variable name="filename">
+    <xsl:apply-templates select="." mode="filename"/>
+  </xsl:variable>
+
   <xsl:variable name="tocentry" select="$autolayout/autolayout//*[$id=@id]"/>
   <xsl:variable name="toc" select="($tocentry/ancestor-or-self::toc
                                    |$autolayout/autolayout/toc[1])[last()]"/>
@@ -120,16 +124,12 @@
         <table xsl:use-attribute-sets="table.properties" border="0">
           <xsl:if test="$nav.table.summary!=''">
             <xsl:attribute name="summary">
-              <xsl:value-of select="normalize-space($nav.table.summary)"/>
+              <xsl:value-of select="$nav.table.summary"/>
             </xsl:attribute>
           </xsl:if>
           <tr>
-            <td xsl:use-attribute-sets="table.navigation.cell.properties">
-              <img src="{$relpath}{$table.spacer.image}" alt=" " width="1" height="1"/>
-            </td>
-            <xsl:call-template name="hspacer">
-              <xsl:with-param name="vspacer" select="1"/>
-            </xsl:call-template>
+            <td><img src="{$table.spacer.image}" alt=" " width="1" height="1"/></td>
+            <xsl:call-template name="hspacer"/>
             <td rowspan="2" xsl:use-attribute-sets="table.body.cell.properties">
               <xsl:if test="$navbodywidth != ''">
                 <xsl:attribute name="width">
@@ -153,7 +153,7 @@
                 <xsl:apply-templates select="./head/title" mode="title.mode"/>
               </xsl:if>
 
-              <xsl:apply-templates select="child::node()[not(self::webpage)]"/>
+              <xsl:apply-templates select="child::*[name(.) != 'webpage']"/>
               <xsl:call-template name="process.footnotes"/>
               <br/>
             </td>
@@ -202,7 +202,6 @@
 </xsl:template>
 
 <xsl:template name="hspacer">
-  <xsl:param name="vspacer" select="0"/>
   <!-- nop -->
 </xsl:template>
 
