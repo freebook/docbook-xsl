@@ -117,7 +117,7 @@
         
 		<br />
 
-		<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=r5HG&amp;d=I4PGSAlBx_RjcBKmpZgR4WuU1yHy-Q10AKQe4quwDk4"></script>
+		<script type="text/javascript" id="clustrmaps" src="http://cdn.clustrmaps.com/map_v2.js?u=r5HG&amp;d=I4PGSAlBx_RjcBKmpZgR4WuU1yHy-Q10AKQe4quwDk4"></script>
 
    </xsl:template>
 
