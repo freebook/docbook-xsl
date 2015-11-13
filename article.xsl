@@ -26,7 +26,7 @@
 
    <xsl:template name="user.header.content">
 
-        <a href="http://netkiller.github.io/">Home</a> |
+        <a href="http://www.netkiller.cn/">Home</a> |
 		<a href="http://netkiller.github.io/">简体中文</a> |
 	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
 	    <a href="/journal/index.html">杂文</a> |
