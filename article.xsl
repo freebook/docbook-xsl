@@ -18,6 +18,17 @@
 
    <xsl:template name="user.head.content">
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69658182-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
    </xsl:template>
 
 	<xsl:template name="user.header.navigation">
@@ -29,8 +40,8 @@
         <a href="http://www.netkiller.cn/">Home</a> |
 		<a href="http://netkiller.github.io/">简体中文</a> |
 	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
-	    <a href="/journal/index.html">杂文</a> |
-	    <a href="/search.html">Search</a> |
+	    <a href="http://www.netkiller.cn/journal/index.html">杂文</a> |
+	    <a href="http://www.netkiller.cn/search.html">Search</a> |
 	    <a href="http://netkiller-github-com.iteye.com/">ITEYE 博客</a> |
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
@@ -56,18 +67,7 @@
 	    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 		<br />
-		<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=r5HG&amp;d=9mi5r_kkDC8uxG8HuY3p4-2qgeeVypAK9vMD-2P6BYM"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-11694057-1', 'netkiller.github.io');
-  ga('send', 'pageview');
-
-</script>
+		<a href="http://www.clustrmaps.com/map/Netkiller.cn" title="Visitor Map for Netkiller.cn"><img src="//www.clustrmaps.com/map_v2.png?u=r5HG&amp;d=9mi5r_kkDC8uxG8HuY3p4-2qgeeVypAK9vMD-2P6BYM" /></a>
 
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
