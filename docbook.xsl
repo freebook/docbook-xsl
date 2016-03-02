@@ -53,6 +53,7 @@
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
+	    <a href="https://zb.oschina.net/profile/725072/market">作品与服务</a> |
 		<a href="mailto:netkiller@msn.com">Email</a>	
 <!-- 	
 <table width="100%" border="0">
