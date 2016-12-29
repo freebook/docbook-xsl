@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/xhtml5/docbook.xsl"/>
-   <xsl:param name="toc.max.depth">5</xsl:param>
    <xsl:param name="html.stylesheet">/journal/journal.css</xsl:param>
+   <xsl:param name="toc.max.depth">5</xsl:param>
+   <xsl:param name="toc.section.depth" select="4"/>
    <xsl:param name="use.id.as.filename" select="1"/>
-   <xsl:param name="toc.section.depth" select="5"/>
    <xsl:param name="section.autolabel" select="1"/>
    <xsl:param name="css.decoration" select="1"/>
 
@@ -46,7 +46,7 @@
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
-	    <a href="https://zb.oschina.net/profile/725072/market">作品与服务</a> |
+	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
 		<a href="mailto:netkiller@msn.com">Email</a>
 
    </xsl:template>
