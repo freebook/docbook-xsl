@@ -48,13 +48,13 @@
 		<a href="http://netkiller.github.io/">简体中文</a> |
 	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
 	    <a href="/journal/index.html">杂文</a> |
-	    <a href="/search.html">Search</a> |
+	    <a href="//www.netkiller.cn/home/donations.html">打赏(Donations)</a> |
 	    <a href="http://netkiller-github-com.iteye.com/">ITEYE 博客</a> |
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
 	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
-	    <a href="//www.netkiller.cn/home/donations.html">打赏(Donations)</a>
+	    <a href="/search.html">Search</a> |
 		<a href="mailto:netkiller@msn.com">Email</a>
 <!-- 	
 <table width="100%" border="0">
