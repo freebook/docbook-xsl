@@ -54,7 +54,8 @@
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
 	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
-		<a href="mailto:netkiller@msn.com">Email</a>	
+	    <a href="//www.netkiller.cn/home/donations.html">打赏(Donations)</a>
+		<a href="mailto:netkiller@msn.com">Email</a>
 <!-- 	
 <table width="100%" border="0">
   <tr>
@@ -135,6 +136,22 @@ s.setAttribute('data-timestamp', +new Date());
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F997cd4a7320a82d72cb74d179118f697' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- 搜索自动收录代码 -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
 </script>
 
 <script type="text/javascript" src="/js/q.js"></script>
