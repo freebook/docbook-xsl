@@ -122,7 +122,7 @@ s.setAttribute('data-timestamp', +new Date());
 
    <xsl:template name="user.footer.navigation">
 
-<script>
+<script >
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -133,13 +133,18 @@ s.setAttribute('data-timestamp', +new Date());
 
 </script>
 
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F997cd4a7320a82d72cb74d179118f697' type='text/javascript'%3E%3C/script%3E"));
+<script async="async">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?93967759a51cda79e49bf4e34d0b0f2c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
 
 <!-- 搜索自动收录代码 -->
-<script>
+<script async="async">
 (function(){
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
@@ -154,7 +159,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 })();
 </script>
 
-<script type="text/javascript" src="/js/q.js"></script>
+<script type="text/javascript" src="/js/q.js" async="async"></script>
 
    </xsl:template>
 
