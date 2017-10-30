@@ -55,7 +55,7 @@
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
 	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
 	    <a href="/search.html">Search</a> |
-		<a href="mailto:netkiller@msn.com">Email</a>
+	    <a href="//www.netkiller.cn/home/about.html">About</a>
 <!-- 	
 <table width="100%" border="0">
   <tr>
