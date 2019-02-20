@@ -56,7 +56,7 @@
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
 	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
-	    <a href="/search.html">Search</a> |
+	    <a href="//www.netkiller.cn/home/video.html">视频教程</a> |
 	    <a href="//www.netkiller.cn/home/about.html">About</a>
 <!-- 	
 <table width="100%" border="0">
