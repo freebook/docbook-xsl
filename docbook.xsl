@@ -48,44 +48,20 @@
 		<a href="//netkiller.github.io/">简体中文</a> |
 	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
 	    <a href="/journal/index.html">杂文</a> |
-	    <a href="//www.netkiller.cn/home/donations.html">打赏(Donations)</a> |
+	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
 	    <a href="https://github.com/netkiller">Github</a> |
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
 	    <a href="https://cloud.tencent.com/developer/column/2078">云社区</a> |
 	    <a href="https://yq.aliyun.com/u/netkiller/">云栖社区</a> |
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
-	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
 	    <a href="//www.netkiller.cn/home/video.html">视频教程</a> |
+	    <a href="//www.netkiller.cn/home/donations.html">打赏(Donations)</a> |
 	    <a href="//www.netkiller.cn/home/about.html">About</a>
-<!-- 	
-<table width="100%" border="0">
-  <tr>
-    <td align="left" >
-    </td>
-    <td  align="right">
- -->
-<!-- Google CSE Search Box Begins -->
-<!-- 
-  <form id="searchbox_008589143145807374698:f5uprauilyy" action="/search.html">
 
-    <input type="hidden" name="cx" value="008589143145807374698:f5uprauilyy" />
-    <input type="hidden" name="cof" value="FORID:11" />
-    <input name="q" type="text" size="25" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(126, 157, 185); border-right-color: rgb(126, 157, 185); border-bottom-color: rgb(126, 157, 185); border-left-color: rgb(126, 157, 185); padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; background-image: url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: 0% 50%; background-repeat: no-repeat no-repeat; " />
-    <input type="submit" name="sa" value="Search" />
-    <input name="siteurl" type="hidden" value="http://netkiller.sourceforge.net/" />
-  </form>
-  <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_008589143145807374698%3Af5uprauilyy"></script>
- -->
-<!-- Google CSE Search Box Ends -->
-<!-- 
-    </td>
-  </tr>
-</table>	
- -->
 	</xsl:template>
 
-   <xsl:template name="user.header.content">
+	<xsl:template name="user.header.content">
 
 <table><tr><td>
 <iframe src="//ghbtns.com/github-btn.html?user=netkiller&amp;repo=netkiller.github.io&amp;type=watch&amp;count=true&amp;size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe>
@@ -95,9 +71,9 @@
 <iframe src="//ghbtns.com/github-btn.html?user=netkiller&amp;type=follow&amp;count=true&amp;size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe>
 </td></tr></table>
 
-   </xsl:template>
+	</xsl:template>
 
-   <xsl:template name="user.footer.content">
+	<xsl:template name="user.footer.content">
 
 <div id="disqus_thread"></div>
 <script>
@@ -120,9 +96,9 @@ s.setAttribute('data-timestamp', +new Date());
 
 		<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=r5HG&amp;d=9mi5r_kkDC8uxG8HuY3p4-2qgeeVypAK9vMD-2P6BYM"></script>
 
-   </xsl:template>
+	</xsl:template>
 
-   <xsl:template name="user.footer.navigation">
+	<xsl:template name="user.footer.navigation">
 
 <script >
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -161,8 +137,8 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-<script type="text/javascript" src="/js/q.js" async="async"></script>
+<!-- <script type="text/javascript" src="/js/q.js" async="async"></script> -->
 
-   </xsl:template>
+	</xsl:template>
 
 </xsl:stylesheet>
