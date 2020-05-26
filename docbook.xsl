@@ -63,13 +63,18 @@
 
 	<xsl:template name="user.header.content">
 
-<table><tr><td>
+<table><tr>
+<td>
 <iframe src="//ghbtns.com/github-btn.html?user=netkiller&amp;repo=netkiller.github.io&amp;type=watch&amp;count=true&amp;size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe>
-</td><td>
+</td>
+<td>
 <iframe src="//ghbtns.com/github-btn.html?user=netkiller&amp;repo=netkiller.github.io&amp;type=fork&amp;count=true&amp;size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe>
-</td><td>
+</td>
+<td>
 <iframe src="//ghbtns.com/github-btn.html?user=netkiller&amp;type=follow&amp;count=true&amp;size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe>
-</td></tr></table>
+</td>
+<td><a href="https://zhuanlan.zhihu.com/netkiller"><img src="/images/logo/zhihu-card-default.svg" />专栏</a> ｜ <a href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td>
+</tr></table>
 
 	</xsl:template>
 
