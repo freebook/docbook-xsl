@@ -73,7 +73,7 @@
 <td>
 <iframe src="//ghbtns.com/github-btn.html?user=netkiller&amp;type=follow&amp;count=true&amp;size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe>
 </td>
-<td><a href="https://zhuanlan.zhihu.com/netkiller"><img src="/images/logo/zhihu-card-default.svg" />专栏</a> ｜ <a href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td>
+<td><a href="https://zhuanlan.zhihu.com/netkiller"><img src="/images/logo/zhihu-card-default.svg" height="50" />专栏</a> ｜ <a href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td>
 </tr></table>
 
 	</xsl:template>
