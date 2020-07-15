@@ -8,7 +8,7 @@
 	<xsl:param name="admon.graphics.extension">
 		.png
 	</xsl:param>
-	<xsl:param name="html.stylesheet" select="'/docbook.css'" />
+	<xsl:param name="html.stylesheet" select="'docbook.css'" />
 	<xsl:param name="css.decoration" select="1" />
 
 	<xsl:param name="toc.max.depth">
@@ -38,7 +38,7 @@
 	</xsl:template>
 
 	<xsl:template name="user.head.content">
-		<!-- <xsl:copy-of select="document('myscriptfile.js',/)"/> -->
+
 	</xsl:template>
 
 	<xsl:template name="user.header.navigation">
@@ -54,8 +54,6 @@
 	</xsl:template>
 
 	<xsl:template name="user.footer.content">
-
-		<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=r5HG&amp;d=9mi5r_kkDC8uxG8HuY3p4-2qgeeVypAK9vMD-2P6BYM"></script>
 
 	</xsl:template>
 
