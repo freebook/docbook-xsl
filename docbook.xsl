@@ -75,8 +75,9 @@
 </td>
 <td> </td>
 <td><a href="https://zhuanlan.zhihu.com/netkiller"><img src="/images/logo/zhihu-card-default.svg" height="25" /></a></td>
-<td valign="middle"><a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> ｜ <a href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td>
-<td> 微信号 netkiller-ebook | QQ群：128659835 请注明“读者” </td>
+<td valign="middle"><a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> ｜ <a href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td> <td> | </td>
+<td>微信号 netkiller-ebook  </td> <td> | </td>
+<td>QQ群：128659835 请注明“读者”</td>
 </tr></table>
 
 	</xsl:template>
