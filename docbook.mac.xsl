@@ -49,6 +49,7 @@
 	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
 	    <a href="/journal/index.html">杂文</a> |
 	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
+	    <a href="https://space.bilibili.com/486347986/">bilibili</a> |
 	    <a href="https://github.com/netkiller">Github</a> |
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
 	    <a href="https://cloud.tencent.com/developer/column/2078">云社区</a> |
