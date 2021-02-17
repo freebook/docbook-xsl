@@ -85,6 +85,11 @@
 
 	<xsl:template name="user.footer.content">
 
+        网站：<a href="//www.netkiller.cn/">http://www.netkiller.cn/</a> |
+	    知乎：<a href="https://www.zhihu.com/people/netkiller">netkiller</a> |
+	    Bilibili：<a href="https://space.bilibili.com/486347986/">netkiller</a> |
+	    Github：<a href="https://github.com/netkiller">netkiller</a> 
+
 <div id="disqus_thread"></div>
 <script>
 
