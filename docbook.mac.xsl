@@ -49,6 +49,7 @@
 	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
 	    <a href="/journal/index.html">杂文</a> |
 	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
+   	    <a href="https://edu.51cto.com/lecturer/1703915.html">视频教程</a> |
 	    <a href="https://space.bilibili.com/486347986/">bilibili</a> |
 	    <a href="https://github.com/netkiller">Github</a> |
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
@@ -56,7 +57,6 @@
 	    <a href="https://yq.aliyun.com/u/netkiller/">云栖社区</a> |
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
-	    <a href="//www.netkiller.cn/home/video.html">视频教程</a> |
 	    <a href="//www.netkiller.cn/home/donations.html">打赏(Donations)</a> |
 	    <a href="//www.netkiller.cn/home/about.html">About</a>
 
@@ -78,7 +78,7 @@
 <td><a href="https://zhuanlan.zhihu.com/netkiller"><img src="/images/logo/zhihu-card-default.svg" height="25" /></a></td>
 <td valign="middle"><a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> ｜ <a href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td> <td> | </td>
 <td>微信号 netkiller-ebook  </td> <td> | </td>
-<td>QQ群：128659835 请注明“读者”</td>
+<td>51CTO：<a href="https://edu.51cto.com/lecturer/1703915.html">视频教程</a></td>
 </tr></table>
 
 	</xsl:template>
@@ -87,6 +87,7 @@
 
         网站：<a href="//www.netkiller.cn/">http://www.netkiller.cn/</a> |
 	    知乎：<a href="https://www.zhihu.com/people/netkiller">netkiller</a> |
+	    51CTO：<a href="https://edu.51cto.com/lecturer/1703915.html">视频教程</a> |
 	    Bilibili：<a href="https://space.bilibili.com/486347986/">netkiller</a> |
 	    Github：<a href="https://github.com/netkiller">netkiller</a> 
 
