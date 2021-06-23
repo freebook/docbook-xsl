@@ -49,12 +49,12 @@
 	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
 	    <a href="/journal/index.html">杂文</a> |
 	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
-   	    <a href="https://edu.51cto.com/lecturer/1703915.html">视频教程</a> |
-	    <a href="https://space.bilibili.com/486347986/">bilibili</a> |
+   	    <a href="https://edu.51cto.com/lecturer/1703915.html">51CTO学院</a> |
+	    <a href="https://edu.csdn.net/lecturer/6423">CSDN程序员研修院</a> |
 	    <a href="https://github.com/netkiller">Github</a> |
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
-	    <a href="https://cloud.tencent.com/developer/column/2078">云社区</a> |
-	    <a href="https://yq.aliyun.com/u/netkiller/">云栖社区</a> |
+	    <a href="https://cloud.tencent.com/developer/column/2078">腾讯云社区</a> |
+	    <a href="https://yq.aliyun.com/u/netkiller/">阿里云栖社区</a> |
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
 	    <a href="//www.netkiller.cn/home/donations.html">打赏(Donations)</a> |
@@ -76,39 +76,22 @@
 </td>
 <td> </td>
 <td><a href="https://zhuanlan.zhihu.com/netkiller"><img src="/images/logo/zhihu-card-default.svg" height="25" /></a></td>
-<td valign="middle"><a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> ｜ <a href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td> <td> | </td>
-<td>微信号 netkiller-ebook  </td> <td> | </td>
-<td>51CTO：<a href="https://edu.51cto.com/lecturer/1703915.html">视频教程</a></td>
+<td valign="middle"><a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> ｜ <a href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td> 
+<td></td> <td> </td> <td> </td> <td></td>
 </tr></table>
 
 	</xsl:template>
 
 	<xsl:template name="user.footer.content">
 
-        网站：<a href="//www.netkiller.cn/">http://www.netkiller.cn/</a> |
-	    知乎：<a href="https://www.zhihu.com/people/netkiller">netkiller</a> |
-	    51CTO：<a href="https://edu.51cto.com/lecturer/1703915.html">视频教程</a> |
-	    Bilibili：<a href="https://space.bilibili.com/486347986/">netkiller</a> |
-	    Github：<a href="https://github.com/netkiller">netkiller</a> 
-
-<div id="disqus_thread"></div>
-<script>
-
-var disqus_config = function () {
-this.page.url = "http://www.netkiller.cn";  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = 'netkiller'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = '//netkiller.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
+<div id="SOHUCS" ></div>
+<script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+appid: 'cyvwjQUG3',
+conf: 'prod_ef966242df3d8b5acb1e0ee9fc01cafe'
+});
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-		<br />
 
 		<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=r5HG&amp;d=9mi5r_kkDC8uxG8HuY3p4-2qgeeVypAK9vMD-2P6BYM"></script>
 
@@ -152,8 +135,6 @@ var _hmt = _hmt || [];
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
-<!-- <script type="text/javascript" src="/js/q.js" async="async"></script> -->
 
 	</xsl:template>
 
