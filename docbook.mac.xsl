@@ -57,6 +57,7 @@
 	    <a href="https://yq.aliyun.com/u/netkiller/">阿里云栖社区</a> |
 	    <a href="https://www.facebook.com/bg7nyt">Facebook</a> |
 	    <a href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> |
+	    <a href="https://www.youtube.com/user/bg7nyt/videos">Youtube</a> |
 	    <a href="//www.netkiller.cn/home/donations.html">打赏(Donations)</a> |
 	    <a href="//www.netkiller.cn/home/about.html">About</a>
 
