@@ -7,8 +7,8 @@
    	<xsl:param name="html.stylesheet" 	select="'docbook.css'"/>
    	<xsl:param name="css.decoration" 	select="1"/>
    	
-   	<xsl:param name="toc.max.depth">3</xsl:param>
-   	<xsl:param name="toc.section.depth">3</xsl:param>
+   	<xsl:param name="toc.max.depth">4</xsl:param>
+   	<xsl:param name="toc.section.depth">2</xsl:param>
    	<xsl:param name="use.id.as.filename" select="1"/>
    	
 	<xsl:param name="preface.autolabel" select="1"/>
