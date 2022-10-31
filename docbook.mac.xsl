@@ -37,9 +37,7 @@
 	</xsl:template>
 
    <xsl:template name="user.head.content">
-   		<!-- 
-		<xsl:copy-of select="document('myscriptfile.js',/)"/>
-		 -->
+  
    </xsl:template>
 
 	<xsl:template name="user.header.navigation">
@@ -48,10 +46,10 @@
 		<a href="//netkiller.github.io/">简体中文</a> |
 	    <a href="http://netkiller.sourceforge.net/">繁体中文</a> |
 	    <a href="/journal/index.html">杂文</a> |
+	    <a href="https://github.com/netkiller">Github</a> |
 	    <a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> |
    	    <a href="https://edu.51cto.com/lecturer/1703915.html">51CTO学院</a> |
 	    <a href="https://edu.csdn.net/lecturer/6423">CSDN程序员研修院</a> |
-	    <a href="https://github.com/netkiller">Github</a> |
 	    <a href="http://my.oschina.net/neochen/">OSChina 博客</a> |
 	    <a href="https://cloud.tencent.com/developer/column/2078">腾讯云社区</a> |
 	    <a href="https://yq.aliyun.com/u/netkiller/">阿里云栖社区</a> |
