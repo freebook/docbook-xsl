@@ -87,8 +87,7 @@
 						<img src="/images/logo/zhihu-card-default.svg" height="25" />
 					</a>
 				</td>
-				<td valign="middle"><a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> ｜ <a
-						href="https://www.zhihu.com/club/1241768772601950208">多维度架构</a></td>
+				<td valign="middle"><a href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> </td>
 				<td></td>
 				<td> </td>
 				<td> </td>
