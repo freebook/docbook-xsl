@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-	<xsl:import href="/usr/local/opt/docbook-xsl/docbook-xsl/xhtml/chunk.xsl" />
+	<!-- <xsl:import href="/usr/local/opt/docbook-xsl/docbook-xsl/xhtml/chunk.xsl" /> -->
+	<xsl:import href="/opt/homebrew/opt/docbook-xsl/docbook-xsl/xhtml/chunk.xsl" />
 	<xsl:param name="admon.graphics" select="1" />
 	<xsl:param name="admon.graphics.path">/graphics/</xsl:param>
 	<xsl:param name="admon.graphics.extension">.png</xsl:param>
