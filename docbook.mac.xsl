@@ -47,11 +47,6 @@
 			href="http://netkiller.sourceforge.net/">繁体中文</a> | <a href="/journal/index.html">杂文</a>
 		| <a href="https://github.com/netkiller">Github</a> | <a
 			href="https://zhuanlan.zhihu.com/netkiller">知乎专栏</a> | <a
-			href="https://edu.51cto.com/lecturer/1703915.html">51CTO学院</a> | <a
-			href="https://edu.csdn.net/lecturer/6423">CSDN程序员研修院</a> | <a
-			href="http://my.oschina.net/neochen/">OSChina 博客</a> | <a
-			href="https://cloud.tencent.com/developer/column/2078">腾讯云社区</a> | <a
-			href="https://yq.aliyun.com/u/netkiller/">阿里云栖社区</a> | <a
 			href="https://www.facebook.com/bg7nyt">Facebook</a> | <a
 			href="http://cn.linkedin.com/in/netkiller/">Linkedin</a> | <a
 			href="https://www.youtube.com/user/bg7nyt/videos">Youtube</a> | <a
