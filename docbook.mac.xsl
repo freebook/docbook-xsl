@@ -95,17 +95,6 @@
 
 	<xsl:template name="user.footer.content">
 
-		<div id="SOHUCS"></div>
-<script charset="utf-8" type="text/javascript"
-			src="https://cy-cdn.kuaizhan.com/upload/changyan.js"></script>
-<script
-			type="text/javascript">
-			window.changyan.api.config({
-			appid: 'cyvwjQUG3',
-			conf: 'prod_ef966242df3d8b5acb1e0ee9fc01cafe'
-			});
-</script>
-
 		<script
 			type="text/javascript" id="clustrmaps"
 			src="//cdn.clustrmaps.com/map_v2.js?u=r5HG&amp;d=9mi5r_kkDC8uxG8HuY3p4-2qgeeVypAK9vMD-2P6BYM"></script>
