@@ -95,9 +95,7 @@
 
 	<xsl:template name="user.footer.content">
 
-		<script
-			type="text/javascript" id="clustrmaps"
-			src="//cdn.clustrmaps.com/map_v2.js?u=r5HG&amp;d=9mi5r_kkDC8uxG8HuY3p4-2qgeeVypAK9vMD-2P6BYM"></script>
+		<!-- 底部 -->
 
 	</xsl:template>
 
@@ -122,23 +120,6 @@
 			hm.src = "https://hm.baidu.com/hm.js?93967759a51cda79e49bf4e34d0b0f2c";
 			var s = document.getElementsByTagName("script")[0];
 			s.parentNode.insertBefore(hm, s);
-			})();
-</script>
-
-		<!-- 搜索自动收录代码 -->
-<script
-			async="async">
-			(function(){
-			var bp = document.createElement('script');
-			var curProtocol = window.location.protocol.split(':')[0];
-			if (curProtocol === 'https') {
-			bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-			}
-			else {
-			bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-			}
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(bp, s);
 			})();
 </script>
 
