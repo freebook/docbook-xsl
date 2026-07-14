@@ -39,7 +39,19 @@
 
 	<xsl:template name="user.preroot"> </xsl:template>
 
-	<xsl:template name="user.head.content"> </xsl:template>
+	<xsl:template name="user.head.content"> 
+	
+<!-- Google tag (gtag.js) -->
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-M26C2M82YK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M26C2M82YK');
+</script>
+	
+	</xsl:template>
 
 	<xsl:template name="user.header.navigation">
 
